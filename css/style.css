@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+
+.card {
+    position: relative;
+    width: 50vh;
+    height: 70vh;
+    background-color: bisque;
+    border-radius: 3vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    justify-content: center;
+    display: flex;
+}
+
+.plate {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3vh;
+    top: 5.11%;
+}
+
+.cup {
+    width: 37vh;
+    height: 37vh;
+    border-radius: 3vh;
+    position: relative;
+    top: 5%;
+}
+
+.name {
+    position: absolute;
+    top: 38vh;
+    font-size: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.description {
+    position: absolute;
+    top: 45vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.cost {
+    position: absolute;
+    top: 49vh;
+    font-size: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(50, 100, 0);
+}
+
+.buy {
+    position: absolute;
+    top: 58vh;
+    justify-content: center;
+    display: flex;
+}
+
+button {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width:  35vh;
+    height: 5vh;
+    border-radius: 2vh;
+    background-color: rgb(255, 255, 170);
+    bottom: 3vh;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 100);
+}
+
+.text__button {
+    position: relative;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+    bottom: 1.5vh;
+}
+
+.rate {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 61vh;
+}
+
+.rate__text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+}
